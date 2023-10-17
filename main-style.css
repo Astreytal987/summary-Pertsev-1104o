@@ -1,0 +1,106 @@
+/*цветовая триада 1 #BF8430 #333086 #20815D
+2 #FF0000 #009999 #9FEE00 блоки */
+:root {
+    --homeOrange-color: #BF8430;
+    --homeBlue-color: #333086;
+    --homeGreen-color: #20815D;
+    --blockRed-color: #FF0000;
+    --blockBlue-color: #009999;
+    --blockGreen-color: #9FEE00;
+}
+
+@font-face {
+    font-family: RobotoMono-Regular;
+    src: url(fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+/* начало 4.3 */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:  #212529;
+    background-color: var(--homeOrange-color) ;
+}
+/* начало 4.4 */
+header {
+    font-family: RobotoMono-Regular;
+        font-size: 0.8em;
+}
+head {
+    font-size: 0.8em;
+    /* тут должен быть размер логотипа,но его захватывает img*/
+    font-family: RobotoMono-Regular;
+}
+img {
+    max-width: 50px;
+    max-height: 50px;
+}
+/* начало 4.5 */
+h1 {
+    font-family: Montserrat-Regular;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+h2 {
+    font-family: Montserrat-Regular;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+/* начало 4.6 */
+.obert {
+    height: 1180px;
+    width: 1640px;
+}
+/*Далее идёт классы для блоков*/
+.section {
+    height: 580px;
+    width: 530px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 4px;
+    
+    border-radius: 24px;
+  }
+.blockcolor1{background-color: var(--blockBlue-color);}
+.blockcolor2{background-color: var(--blockGreen-color);}
+.blockcolor3{background-color: var(--blockRed-color);}
+
+.decoration {
+text-decoration: none;
+color: black;}
+
+.decoration:hover {
+color:white
+}
+
+/* тень 4.7 */
+.section:hover {
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 2);
+}
+
+.homecolor1{background-color: var(--homeBlue-color);}
+.homecolor2{background-color: var(--homeGreen-color);}
+.homecolor3{background-color: var(--homeOrange-color);}
+
+footer {
+    text-align: center;
+}
+.date {
+ text-align: right;
+}
