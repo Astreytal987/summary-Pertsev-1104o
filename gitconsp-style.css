@@ -1,0 +1,58 @@
+.decoration {
+    text-decoration: none;
+    color: black;}
+    
+    .decoration:hover {
+    color:white
+    }
+
+    footer {
+        text-align: center;
+    }
+    .date {
+     text-align: right;
+    }
+
+    header {
+        font-family: RobotoMono-Regular;
+            font-size: 0.8em;
+    }
+    head {
+        font-size: 0.8em;
+        /* тут должен быть размер логотипа,но его захватывает img*/
+        font-family: RobotoMono-Regular;
+    }
+    img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+/*Начало нормального кода*/
+@font-face {
+    font-family: RobotoMono-Regular;
+    src: url(fonts/RobotoMono-Regular.ttf);
+}
+body {
+    font-weight: 400;
+    font-family: RobotoMono-Regular;
+    font-size: 1em;
+    line-height: 1.7;
+    margin: 0px 0px 16px 0px;
+}
+
+.console {
+    background-color:#6d757d;
+    padding: 16px;
+    margin-bottom: 16px 0px;
+    font-family: SFMono-Regular;
+    font-size: 0.85em;
+}
+.textcomand {
+    color: #24292E;
+}
+.textarg {
+    color: #009999;
+}
+
+.comment {
+    color:  #999988;
+}
